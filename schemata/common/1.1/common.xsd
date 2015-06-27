@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema
- xmlns:cvrf-common="http://www.icasi.org/CVRF/schema/common/1.1"
+ xmlns:cvrf-common="http://cvrf.github.io/CVRF/schema/common/1.1"
  xmlns:xs="http://www.w3.org/2001/XMLSchema"
  xmlns:dc="http://purl.org/dc/elements/1.1/"
  id="CVRFCommonDictionary"
- targetNamespace="http://www.icasi.org/CVRF/schema/common/1.1"
+ targetNamespace="http://cvrf.github.io/CVRF/schema/common/1.1"
  elementFormDefault="qualified"
  attributeFormDefault="unqualified"
  version="1.1">
@@ -22,6 +22,7 @@
       <dc:creator>Brian Schafer &lt;bschafer@microsoft.com&gt;</dc:creator>
       <dc:contributor>Joe Clarke &lt;jclarke@cisco.com&gt;</dc:contributor>
       <dc:contributor>Joe Hemmerlein &lt;Joe.Hemmerlein@microsoft.com&gt;</dc:contributor>
+      <dc:contributor>Omar Santos &lt;os@cisco.com&gt;</dc:contributor>
       <dc:date>2012-05-07</dc:date>
       <dc:subject>CVRF Common Data Types</dc:subject>
       <version>1.1</version>

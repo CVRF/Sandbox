@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <xs:schema id="CVRFDictionary"
-  targetNamespace="http://www.icasi.org/CVRF/schema/cvrf/1.1"
-  xmlns:cvrf="http://www.icasi.org/CVRF/schema/cvrf/1.1"
-  xmlns:vuln="http://www.icasi.org/CVRF/schema/vuln/1.1"
-  xmlns:prod="http://www.icasi.org/CVRF/schema/prod/1.1"
-  xmlns:cvrf-common="http://www.icasi.org/CVRF/schema/common/1.1"
+  targetNamespace="http://cvrf.github.io/CVRF/schema/cvrf/1.1"
+  xmlns:cvrf="http://cvrf.github.io/CVRF/schema/cvrf/1.1"
+  xmlns:vuln="http://cvrf.github.io/CVRF/schema/vuln/1.1"
+  xmlns:prod="http://cvrf.github.io/CVRF/schema/prod/1.1"
+  xmlns:cvrf-common="http://cvrf.github.io/CVRF/schema/common/1.1"
   xmlns:xs="http://www.w3.org/2001/XMLSchema"
   xmlns:dc="http://purl.org/dc/elements/1.1/"
   elementFormDefault="qualified"
@@ -14,9 +14,9 @@
   <!-- =============================   SCHEMA IMPORTS  =============================== -->
   <!-- =============================================================================== -->
   <xs:import namespace="http://purl.org/dc/elements/1.1/" schemaLocation="http://dublincore.org/schemas/xmls/qdc/2008/02/11/dc.xsd" />
-  <xs:import namespace="http://www.icasi.org/CVRF/schema/vuln/1.1" schemaLocation="http://www.icasi.org/CVRF/schema/vuln/1.1/vuln.xsd" />
-  <xs:import namespace="http://www.icasi.org/CVRF/schema/common/1.1" schemaLocation="http://www.icasi.org/CVRF/schema/common/1.1/common.xsd" />
-  <xs:import namespace="http://www.icasi.org/CVRF/schema/prod/1.1" schemaLocation="http://www.icasi.org/CVRF/schema/prod/1.1/prod.xsd" />
+  <xs:import namespace="http://cvrf.github.io/CVRF/schema/vuln/1.1" schemaLocation="http://cvrf.github.io/CVRF/schema/vuln/1.1/vuln.xsd" />
+  <xs:import namespace="http://cvrf.github.io/CVRF/schema/common/1.1" schemaLocation="http://cvrf.github.io/CVRF/schema/common/1.1/common.xsd" />
+  <xs:import namespace="http://cvrf.github.io/CVRF/schema/prod/1.1" schemaLocation="http://cvrf.github.io/CVRF/schema/prod/1.1/prod.xsd" />
   <!-- =============================================================================== -->
   <!-- ============================ SCHEMA INFORMATION =============================== -->
   <!-- =============================================================================== -->
@@ -26,6 +26,7 @@
       <dc:creator>Brian Schafer &lt;bschafer@microsoft.com&gt;</dc:creator>
       <dc:contributor>Joe Clarke &lt;jclarke@cisco.com&gt;</dc:contributor>
       <dc:contributor>Joe Hemmerlein &lt;Joe.Hemmerlein@microsoft.com&gt;</dc:contributor>
+      <dc:contributor>Omar Santos &lt;os@cisco.com&gt;</dc:contributor>
       <dc:date>2012-05-07</dc:date>
       <dc:subject>CVRF Dictionary</dc:subject>
       <version>1.1</version>
