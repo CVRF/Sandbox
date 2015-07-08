@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <cvrfdoc
-xmlns="http://www.icasi.org/CVRF/schema/cvrf/1.1"
-xmlns:cvrf="http://www.icasi.org/CVRF/schema/cvrf/1.1">
+xmlns="http://cvrf.github.io/CVRF/schema/cvrf/1.1"
+xmlns:cvrf="http://cvrf.github.io/CVRF/schema/cvrf/1.1">
   <DocumentTitle>This is a title</DocumentTitle>
   <DocumentType>Test Document</DocumentType>
   <DocumentPublisher Type="Vendor" VendorID="MarcusCom"/>
@@ -34,7 +34,7 @@ xmlns:cvrf="http://www.icasi.org/CVRF/schema/cvrf/1.1">
       </Description>
     </Reference>
   </DocumentReferences>
-  <ProductTree xmlns="http://www.icasi.org/CVRF/schema/prod/1.1">
+  <ProductTree xmlns="http://cvrf.github.io/CVRF/schema/prod/1.1">
     <Branch Type="Product Family" Name="Test Family">
       <FullProductName ProductID="TestFamProd">Test Family Product</FullProductName>
     </Branch>
@@ -50,7 +50,7 @@ xmlns:cvrf="http://www.icasi.org/CVRF/schema/cvrf/1.1">
       </Group>
     </ProductGroups>
   </ProductTree>
-  <Vulnerability Ordinal="1" xmlns="http://www.icasi.org/CVRF/schema/vuln/1.1">
+  <Vulnerability Ordinal="1" xmlns="http://cvrf.github.io/CVRF/schema/vuln/1.1">
     <ID SystemName="SysName">Test ID</ID>
     <Notes>
       <Note Type="General" Ordinal="1">
